@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PREVENTIA SUITE" thread-count="1" verbose="1">
+
+    <test name="PREVENTIA TASK">
+        <classes>
+            <class name="LoginWithValidCredentials"/>
+            <class name="LoginWithInvalidCredentials"/>
+            <class name="AddItemToCart"/>
+            <class name="apiTest.TestAPI"/>
+        </classes>
+    </test>
+
+</suite>
